@@ -13,13 +13,17 @@ const manifest: chrome.runtime.ManifestV3 = {
     service_worker: "src/pages/background/index.js",
     type: "module",
   },
+  host_permissions: ["https://www.googleapis.com/*"],
   action: {
     default_popup: "src/pages/popup/index.html",
     default_icon: "icon-34.png",
   },
-  chrome_url_overrides: {
-    newtab: "src/pages/newtab/index.html",
+  oauth2: {
+    client_id:
+      "773268958908-vfp11d9nqkhgjnhkjlp6dd467epbtlcs.apps.googleusercontent.com",
+    scopes: [""],
   },
+  permissions: ["activeTab", "identity", "identity.email"],
   icons: {
     "128": "icon-128.png",
   },

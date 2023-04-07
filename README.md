@@ -5,11 +5,6 @@
 ![](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![](https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![](https://badges.aleen42.com/src/vitejs.svg)
-![GitHub action badge](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite/actions/workflows/build.yml/badge.svg)
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Jonghakseo/chrome-extension-boilerplate-react-viteFactions&count_bg=%23#222222&title_bg=%23#454545&title=😀&edge_flat=true" alt="hits"/>
-
-
-> This project is listed in the [Awesome Vite](https://github.com/vitejs/awesome-vite)
 
 </div>
 
@@ -17,6 +12,7 @@
 
 - [Intro](#intro)
 - [Features](#features)
+- [Tools](#tools)
 - [Installation](#installation)
   - [Procedures](#procedures)
 - [Screenshots](#screenshots)
@@ -26,10 +22,16 @@
 
 
 ## Intro <a name="intro"></a>
-This boilerplate is made for creating chrome extensions using React and Typescript.
-> The focus was on improving the build speed and development experience with Vite.
+
+> The focus of this extension is to provide address information from a real estate page.
 
 ## Features <a name="features"></a>
+
+
+
+## Tools <a name="features"></a>
+[boilerplate](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite) 
+
 - [React 18](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Jest](https://jestjs.io/)
@@ -56,17 +58,6 @@ This boilerplate is made for creating chrome extensions using React and Typescri
    5. Select - `dist` folder in this project (after dev or build)
 6. If you want to build in production, Just run `yarn build` or `npm run build`.
 
-## Screenshots <a name="screenshots"></a>
-
-### New Tab <a name="newtab"></a>
-
-<img width="971" src="https://user-images.githubusercontent.com/53500778/162631646-cd40976b-b737-43d0-8e6a-6ac090a2e2d4.png">
-
-### Popup <a name="popup"></a>
-
-<img width="314" alt="popup" src="https://user-images.githubusercontent.com/53500778/203561728-23517d46-12e3-4139-8a4f-e0b2f22a6ab3.png">
-
-
 ## Documents <a name="documents"></a>
 - [Vite Plugin](https://vitejs.dev/guide/api-plugin.html)
 - [ChromeExtension](https://developer.chrome.com/docs/extensions/mv3/)
@@ -78,11 +69,3 @@ This boilerplate is made for creating chrome extensions using React and Typescri
 ---
 ## Thanks To
 
-| [Jetbrains](https://jb.gg/OpenSourceSupport)                                                                           | [Jackson Hong](https://www.linkedin.com/in/j-acks0n/)                                            |
-|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| <img width="100" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo."> | <img width="100" src='https://avatars.githubusercontent.com/u/23139754?v=4' alt='Jackson Hong'/> |
-
-
----
-
-[Jonghakseo](https://nookpi.tistory.com/)

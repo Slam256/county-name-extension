@@ -1,11 +1,11 @@
 {
-  "name": "chrome-extension-boilerplate-react-vite",
+  "name": "county-name",
   "version": "0.0.1",
-  "description": "chrome extension boilerplate",
+  "description": "A Chrome extension that displays the address of the property from Redfin's property page.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite.git"
+    "url": "https://github.com/Slam256/county-name-extension.git"
   },
   "scripts": {
     "build": "tsc --noEmit && vite build",
