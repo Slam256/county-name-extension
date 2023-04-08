@@ -14,8 +14,8 @@ interface PropertyDetails {
 
 const getPropertyDetails = (): PropertyDetails => {
   const container = document.querySelector<HTMLElement>(".CalculatorSummary");
-  const priceElement = container.querySelector<HTMLElement>(
-    ".Row:nth-child(1) .Row--content"
+  const priceElement = document.querySelector<HTMLElement>(
+    "div:nth-of-type(1) > .statsValue"
   );
   const taxesElement = container.querySelector<HTMLElement>(
     ".Row:nth-child(2) .Row--content"
