@@ -5,8 +5,10 @@
   left: 0px;
   right: 0px;
   text-align: center;
-  height: 100%;
-  padding: 10px;
+  width: auto;
+  height: 300px;
+  max-height:fit-content;
+  padding: 5px;
   background-color: #282c34;
 }
 
@@ -22,13 +24,45 @@
 }
 
 .App-header {
-  height: 100%;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
+.details-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.details-btn {
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.download-btn {
+  background-color: #4cd964;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.download-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 
 .App-link {

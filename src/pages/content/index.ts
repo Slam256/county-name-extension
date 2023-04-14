@@ -1,5 +1,3 @@
-console.log("content scripts from redfin hunter loaded");
-
 /**
  * @description
  * Chrome extensions don't support modules in content scripts.
@@ -39,7 +37,6 @@ const getPropertyDetails = (): PropertyDetails => {
 };
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  console.log("message received from Sender", message);
   const details = getPropertyDetails();
   sendResponse(details);
 });
