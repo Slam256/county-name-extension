@@ -33,13 +33,9 @@
 
 -   Data Display: The scraped data is displayed in a popup window, using HTML and CSS to create a simple user interface that displays the data in a clear and organized manner.
 
--   Data Storage: The extension creates a CSV file and appends the scraped data to it, using the `csv-writer` package and the `chrome.storage.local` API.
+-   Data Storage: The extension creates a CSV file that you can downlaod and save to your computer, which contains the scraped data.
 
 -   Usage Tracking: The extension tracks the number of times the user has used the scraper during their current session and displays the count in the popup window.
-
--   Error Handling: The extension does not currently handle errors or exceptions that may occur during scraping, and may be affected by changes to the Redfin website's HTML structure.
-
-Overall, the extension provides a convenient way for users to authenticate with Google and scrape data from the Redfin website, while also tracking their usage and storing the scraped data in a CSV file for later use.
 
 ## Tools <a name="features"></a>
 [boilerplate](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite) 
